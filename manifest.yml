@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: node-red-app2
+  host: node-red-app2
+  disk_quota: 1024M
+  services:
+  - node-red-app2-cloudantNoSQLDB
+  - node-red-app2-iotf-service
